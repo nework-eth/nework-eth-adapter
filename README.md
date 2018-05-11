@@ -1,2 +1,2 @@
-# nework
-smart contract for nework
+# nework-eth-adapter
+adapter for eth
