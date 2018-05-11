@@ -41,7 +41,7 @@ public class NKCPayCoreApplicationTests {
     @Autowired
     private Web3j web3j;
     
-    //Method For Get Balance of ETH
+		//Method For Get Balance of ETH
     @Test
     public void getBalbanceETH() throws Exception {
         EthGetBalance ethGetBalance = web3j.ethGetBalance("wallet-address", DefaultBlockParameterName.LATEST).send();
